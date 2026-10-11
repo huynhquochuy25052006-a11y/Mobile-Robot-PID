@@ -1,0 +1,38 @@
+# MATLAB and Simulink: autosave, caches, generated builds
+*.asv
+*.m~
+*.slxc
+slprj/
+*_ert_rtw/
+*_grt_rtw/
+codegen/
+
+# Compiled MATLAB artifacts
+*.mexw64
+*.mexa64
+*.mexmaci64
+*.mexmaca64
+
+# ESP32 / PlatformIO / ESP-IDF generated output
+.pio/
+build/
+managed_components/
+sdkconfig.old
+
+# Local editor and operating-system files
+.vs/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Keep source models and research data trackable:
+# .m, .mlx, .slx, .mdl, .mat, .csv, .ino, .c, .cpp, .h
+# Keep sdkconfig, sdkconfig.defaults and dependency lockfiles when needed
+# for reproducible ESP-IDF builds.
