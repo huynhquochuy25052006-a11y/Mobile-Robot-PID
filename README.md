@@ -87,7 +87,7 @@ $$v=\frac{r}{2}(\omega_R+\omega_L),\qquad \omega=\frac{r}{b}(\omega_R-\omega_L).
 
 **Inverse kinematics:**
 
-$$\omega_L^*=\frac{v^*-\frac{b}{2}\omega^*}{r},\qquad \omega_R^*=\frac{v^*+\frac{b}{2}\omega^*}{r}.$$
+$$\omega_{L,\mathrm{ref}}=\frac{v_{\mathrm{ref}}-\frac{b}{2}\omega_{\mathrm{ref}}}{r},\qquad \omega_{R,\mathrm{ref}}=\frac{v_{\mathrm{ref}}+\frac{b}{2}\omega_{\mathrm{ref}}}{r}.$$
 
 Use wheel-shaft speeds in these equations. Convert motor-shaft speeds through the gearbox ratio when necessary.
 
