@@ -1,0 +1,21 @@
+# Normalize text files while preserving binary project artifacts.
+* text=auto
+*.md text eol=lf
+*.m text eol=lf
+*.mdl text eol=lf
+*.c text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.hpp text eol=lf
+*.ino text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.csv text eol=lf
+*.slx binary
+*.mlx binary
+*.mat binary
+*.sldd binary
+*.png binary
+*.jpg binary
+*.pdf binary
